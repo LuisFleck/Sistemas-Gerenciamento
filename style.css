@@ -10,3 +10,19 @@
 html, body {
     height: 100%;
 }
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+aside{
+    background-color: #ccc;
+}
+section{
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+header{
+    border-bottom: 1px solid #e6e6e6;
+}
